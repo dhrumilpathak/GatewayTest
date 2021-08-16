@@ -1,6 +1,7 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Support.UI;
 using System;
 using System.IO;
@@ -11,7 +12,7 @@ using System.Threading;
 namespace GatewayrGroup.Test.Project
 {
 
-    [TestFixture]
+  
     class AutomationPractiseBaseClass
     {
         public IWebDriver driver = null;
@@ -21,9 +22,9 @@ namespace GatewayrGroup.Test.Project
         {
 
             /// it will take the Chromedriver automatically from the project folder 
-           
-            driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)); 
 
+           //driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)); 
+           driver = new FirefoxDriver("C:\\geckodriver1");
 
         }
 

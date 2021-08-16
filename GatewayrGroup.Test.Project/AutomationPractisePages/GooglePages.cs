@@ -15,7 +15,7 @@ namespace GatewayrGroup.Test.Project.AutomationPractisePages
         {
             
 
-            IWebElement link = driver.FindElement(By.XPath("(.//*[@id='res']//div[@class='rc']//div[@class='r']/a)[3]"));
+            IWebElement link = driver.FindElement(By.XPath("(.//*[@id='search']//a)[3]"));
             Actions newTab = new Actions(driver);
             newTab.KeyDown(Keys.Control).Click(link).Build().Perform();
             Thread.Sleep(5000);

@@ -10,9 +10,10 @@ namespace GatewayrGroup.Test.Project.AutomationPractiseTestMethods
     {
         GooglePages _Googlepage = new GooglePages();
 
-        [TestCase("Dhrumil Pathak")]
+     
         [Description("284720")]
         [Category("SmokeTest")]
+        [TestCase("Dhrumil Pathak")]
         public void OpenVerifyNewtabpageTitle(string name)
         {          
 
