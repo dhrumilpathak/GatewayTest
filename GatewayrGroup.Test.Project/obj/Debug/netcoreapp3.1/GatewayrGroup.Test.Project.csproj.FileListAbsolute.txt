@@ -98,3 +98,4 @@ C:\Users\dhrupath\source\repos\GatewayTest\GatewayrGroup.Test.Project\obj\Debug\
 C:\Users\dhrupath\source\repos\GatewayTest\GatewayrGroup.Test.Project\obj\Debug\netcoreapp3.1\GatewayrGroup.Test.Project.genruntimeconfig.cache
 C:\Users\dhrupath\source\repos\GatewayTest\GatewayrGroup.Test.Project\bin\Debug\netcoreapp3.1\Microsoft.DotNet.InternalAbstractions.dll
 C:\Users\dhrupath\source\repos\GatewayTest\GatewayrGroup.Test.Project\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
+C:\Users\dhrupath\source\repos\GatewayTest\GatewayrGroup.Test.Project\obj\Debug\netcoreapp3.1\GatewayrGroup.Test.Project.csprojAssemblyReference.cache

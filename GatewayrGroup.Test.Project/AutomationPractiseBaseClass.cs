@@ -23,8 +23,8 @@ namespace GatewayrGroup.Test.Project
 
             /// it will take the Chromedriver automatically from the project folder 
 
-           //driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)); 
-           driver = new FirefoxDriver("C:\\geckodriver1");
+           driver = new FirefoxDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)); 
+       
 
         }
 

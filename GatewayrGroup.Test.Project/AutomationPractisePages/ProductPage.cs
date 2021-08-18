@@ -11,6 +11,7 @@ namespace GatewayrGroup.Test.Project.AutomationPractisePages
     {
         internal void SelectProduct(IWebDriver driver)
         {
+            Thread.Sleep(5000);
 
             driver.FindElement(By.XPath("//a[contains(text(),'Faded Short Sleeve T-shirts')]")).Click();
 
