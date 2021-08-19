@@ -14,7 +14,7 @@ namespace GatewayrGroup.Test.Project.AutomationPractiseTestMethods
         [Description("284720")]
         [Category("SmokeTest")]
         [TestCase("Dhrumil Pathak")]
-        public void OpenVerifyNewtabpageTitle(string name)
+        public void OpenVerifyNewtabpageTitle_Test(string name)
         {          
 
             OpenGoogle(driver);         // open google 
