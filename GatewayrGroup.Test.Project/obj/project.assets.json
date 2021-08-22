@@ -111,7 +111,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.TestPlatform.ObjectModel/16.10.0": {
+      "Microsoft.TestPlatform.ObjectModel/16.11.0": {
         "type": "package",
         "dependencies": {
           "NuGet.Frameworks": "5.0.0",
@@ -208,10 +208,10 @@
           }
         }
       },
-      "Microsoft.TestPlatform.TestHost/16.10.0": {
+      "Microsoft.TestPlatform.TestHost/16.11.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.TestPlatform.ObjectModel": "16.10.0",
+          "Microsoft.TestPlatform.ObjectModel": "16.11.0",
           "Newtonsoft.Json": "9.0.1"
         },
         "compile": {
@@ -1468,10 +1468,10 @@
         "runtime.json"
       ]
     },
-    "Microsoft.TestPlatform.ObjectModel/16.10.0": {
-      "sha512": "DYp9eKg3zffZuePhgdUrh5tHkt1YOaSraVH87r4WXDOjag1/n08aFl1vRhWP8y2RoBLTHdcZRTDOhQyYMxAYNg==",
+    "Microsoft.TestPlatform.ObjectModel/16.11.0": {
+      "sha512": "EiknJx9N9Z30gs7R+HHhki7fA8EiiM3pwD1vkw3bFsBC8kdVq/O7mHf1hrg5aJp+ASO6BoOzQueD2ysfTOy/Bg==",
       "type": "package",
-      "path": "microsoft.testplatform.objectmodel/16.10.0",
+      "path": "microsoft.testplatform.objectmodel/16.11.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1709,14 +1709,14 @@
         "lib/uap10.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll",
         "lib/uap10.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll",
         "lib/uap10.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll",
-        "microsoft.testplatform.objectmodel.16.10.0.nupkg.sha512",
+        "microsoft.testplatform.objectmodel.16.11.0.nupkg.sha512",
         "microsoft.testplatform.objectmodel.nuspec"
       ]
     },
-    "Microsoft.TestPlatform.TestHost/16.10.0": {
-      "sha512": "KAlB2QQRwznIH02WNl9eAuUP6/tn4IbAw4EXrvV1POTUjxuv4Dqg0u3Nn5lC9T3WIHupCHfsTcJMgsJYdi31Ig==",
+    "Microsoft.TestPlatform.TestHost/16.11.0": {
+      "sha512": "/Q+R0EcCJE8JaYCk+bGReicw/xrB0HhecrYrUcLbn95BnAlaTJrZhoLkUhvtKTAVtqX/AIKWXYtutiU/Q6QUgg==",
       "type": "package",
-      "path": "microsoft.testplatform.testhost/16.10.0",
+      "path": "microsoft.testplatform.testhost/16.11.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1930,7 +1930,7 @@
         "lib/uap10.0/Microsoft.VisualStudio.TestPlatform.Common.dll",
         "lib/uap10.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll",
         "lib/uap10.0/testhost.dll",
-        "microsoft.testplatform.testhost.16.10.0.nupkg.sha512",
+        "microsoft.testplatform.testhost.16.11.0.nupkg.sha512",
         "microsoft.testplatform.testhost.nuspec"
       ]
     },
@@ -4922,6 +4922,7 @@
     ".NETCoreApp,Version=v3.1": [
       "DotNetSeleniumExtras.WaitHelpers >= 3.11.0",
       "Microsoft.NET.Test.Sdk >= 16.10.0",
+      "Microsoft.TestPlatform.TestHost >= 16.11.0",
       "NUnit3TestAdapter >= 3.17.0",
       "Selenium.Chrome.WebDriver >= 85.0.0",
       "Selenium.Firefox.WebDriver >= 0.27.0",
@@ -4975,6 +4976,10 @@
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[16.10.0, )"
+          },
+          "Microsoft.TestPlatform.TestHost": {
+            "target": "Package",
+            "version": "[16.11.0, )"
           },
           "NUnit3TestAdapter": {
             "target": "Package",

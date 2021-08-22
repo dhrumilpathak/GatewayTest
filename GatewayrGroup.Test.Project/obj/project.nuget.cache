@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gexmfQx4bgXcaCWUZnAqDo9+eoHbC6a0xnwOWk9nAOXCp2ZrblSSQtNUT/EzA3WtM+Wo3wBeQqMVSI7QVHVDvw==",
+  "dgSpecHash": "kVD8pruu9i4BlxFK6j0CyI3Oal10sU3atqlvLvVQqwoI7Pw9bVNbTleWqRYhQzydEpBsz0cAKTZt6AVIT+ji+w==",
   "success": true,
   "projectFilePath": "C:\\Users\\dhrupath\\source\\repos\\GatewayTest\\GatewayrGroup.Test.Project\\GatewayrGroup.Test.Project.csproj",
   "expectedPackageFiles": [
@@ -11,8 +11,8 @@
     "C:\\Users\\dhrupath\\.nuget\\packages\\microsoft.net.test.sdk\\16.10.0\\microsoft.net.test.sdk.16.10.0.nupkg.sha512",
     "C:\\Users\\dhrupath\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\dhrupath\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
-    "C:\\Users\\dhrupath\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.10.0\\microsoft.testplatform.objectmodel.16.10.0.nupkg.sha512",
-    "C:\\Users\\dhrupath\\.nuget\\packages\\microsoft.testplatform.testhost\\16.10.0\\microsoft.testplatform.testhost.16.10.0.nupkg.sha512",
+    "C:\\Users\\dhrupath\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.11.0\\microsoft.testplatform.objectmodel.16.11.0.nupkg.sha512",
+    "C:\\Users\\dhrupath\\.nuget\\packages\\microsoft.testplatform.testhost\\16.11.0\\microsoft.testplatform.testhost.16.11.0.nupkg.sha512",
     "C:\\Users\\dhrupath\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\dhrupath\\.nuget\\packages\\microsoft.win32.registry\\4.3.0\\microsoft.win32.registry.4.3.0.nupkg.sha512",
     "C:\\Users\\dhrupath\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
